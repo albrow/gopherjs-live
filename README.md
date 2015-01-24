@@ -27,3 +27,5 @@ From a directory with some gopherjs-compatible go code in it, just run `gopherjs
 Any arguments and flags will be passed through, so you can run something like this:
 `gopherjs-live -m -o js/app.js`. See `gopherjs help build` for more information about the
 supported flags.
+
+The program will keep running until you kill it (even if there is an error).

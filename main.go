@@ -77,6 +77,7 @@ func main() {
 			panic(err)
 		}
 	}
+	color.Println("@cWatching for changes...")
 
 	// Don't exit early
 	<-done
